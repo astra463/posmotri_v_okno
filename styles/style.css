@@ -99,10 +99,6 @@ ol {
   flex-grow: 1;
 }
 
-.preloader-template {
-  position: absolute;
-}
-
 .search-form__fieldset-title {
   font-size: 18px;
   margin-block-end: 5px;
