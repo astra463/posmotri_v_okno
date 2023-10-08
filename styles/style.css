@@ -107,6 +107,7 @@ ol {
   margin-block-end: 5px;
   font-weight: 400;
   line-height: normal;
+  font-family: 'Fira Sans Condensed';
 }
 
 .title {
@@ -175,6 +176,10 @@ ol {
   display: flex;
   gap: 5px;
   cursor: pointer;
+}
+
+.search-form__label-text {
+  font-family: 'Fira Sans Condensed';
 }
 
 .search-form__label:not(:last-child) {
