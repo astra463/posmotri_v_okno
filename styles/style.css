@@ -57,11 +57,12 @@ ol {
 .content__list {
   position: relative;
   max-block-size: 298px;
-  overflow: scroll;
+  overflow: auto;
   padding: 3px;
 }
 
 .content__details {
+  align-self: flex-start;
   inline-size: 100%;
   block-size: 100%;
   margin-block-end: -3px;
@@ -69,7 +70,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  min-block-size: 386px;
+  max-block-size: 386px;
   min-inline-size: 711px;
   margin-block-end: 16px;
 }
@@ -78,6 +79,7 @@ ol {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__list-item:not(:last-child) {
@@ -90,9 +92,10 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-inline-size: 194px;
-  max-block-size: 103px;
+  inline-size: 194px;
+  block-size: 103px;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card-description-container {
@@ -232,7 +235,7 @@ input:checked + .search-form__pseudo-checkbox::before {
   margin: auto;
 }
 
-.search-form__label:hover {
+.search-form__checkbox-list > .search-form__label:hover {
   text-decoration: underline;
 }
 
