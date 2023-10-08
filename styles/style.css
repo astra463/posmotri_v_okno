@@ -56,7 +56,7 @@ ol {
 
 .content__list {
   position: relative;
-  max-block-size: 298px;
+  block-size: 298px;
   overflow: auto;
   padding: 3px;
 }
@@ -70,8 +70,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  max-block-size: 386px;
-  min-inline-size: 711px;
+  block-size: 386px;
+  inline-size: 711px;
   margin-block-end: 16px;
 }
 
